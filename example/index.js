@@ -2,7 +2,7 @@ var assert = require('assert')
 
 var Simplex = require('..')
 
-var simplex = new Simplex()
+var simplex = new Noise.SimplexNoise()
 
 for (var y = 40; y > 0; y--) {
   var line = ''

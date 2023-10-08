@@ -1,6 +1,6 @@
 var assert = require('assert')
 
-var Simplex = require('..')
+import * as Noise from '..';
 
 var counter = 0
 var TestRandom = {
@@ -10,7 +10,7 @@ var TestRandom = {
   }
 }
 
-var simplex = new Simplex(TestRandom)
+var simplex = new Noise.SimplexNoise(TestRandom)
 
 assert.equal( simplex.noise(1,2),     -0.4705299224716831)
 assert.equal( simplex.noise(1,2.001), -0.474245420644826)

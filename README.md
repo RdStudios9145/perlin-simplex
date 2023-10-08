@@ -12,7 +12,7 @@ This is RdStudio's TS Port of Sean McCullough's JS Port of Sefan Gustavson's Jav
 ## Usage ##
 
 ```js
-var Simplex = require('perlin-simplex')
+import * as Noise from 'ts-perlin-simplex';
 var simplex = new Noise.SimplexNoise()
 simplex.noise(x, y)
 simplex.noise3d(x, y,z)

@@ -1,6 +1,6 @@
 var assert = require('assert')
 
-var Simplex = require('..')
+import * as Noise from '..';
 
 var simplex = new Noise.SimplexNoise()
 
